@@ -1,5 +1,5 @@
 //
-//  HPSAppDelegate.h
+//  HPSCollectionViewController.h
 //  collection
 //
 //  Created by Gordon Fontenot on 10/2/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HPSAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface HPSCollectionViewController : UICollectionViewController
 
 @end

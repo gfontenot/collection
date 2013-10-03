@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F86F11D517FCD9CA0010FC4E /* HPSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86F11D417FCD9CA0010FC4E /* HPSCollectionViewController.m */; };
+		F86F11D717FCED770010FC4E /* beer-flight@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F86F11D617FCED770010FC4E /* beer-flight@2x.jpg */; };
+		F86F11DA17FCEF0C0010FC4E /* HPSCViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F86F11D917FCEF0C0010FC4E /* HPSCViewCell.m */; };
 		F89CC4B417FC95340038DFBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89CC4B317FC95340038DFBF /* Foundation.framework */; };
 		F89CC4B617FC95340038DFBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89CC4B517FC95340038DFBF /* CoreGraphics.framework */; };
 		F89CC4B817FC95340038DFBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89CC4B717FC95340038DFBF /* UIKit.framework */; };
@@ -16,8 +19,6 @@
 		F89CC4C617FC95340038DFBF /* HPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F89CC4C517FC95340038DFBF /* HPSAppDelegate.m */; };
 		F89CC4C917FC95340038DFBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89CC4C717FC95340038DFBF /* Main.storyboard */; };
 		F89CC4CC17FC95340038DFBF /* collection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F89CC4CA17FC95340038DFBF /* collection.xcdatamodeld */; };
-		F89CC4CF17FC95340038DFBF /* HPSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89CC4CE17FC95340038DFBF /* HPSMasterViewController.m */; };
-		F89CC4D217FC95340038DFBF /* HPSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89CC4D117FC95340038DFBF /* HPSDetailViewController.m */; };
 		F89CC4D417FC95340038DFBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89CC4D317FC95340038DFBF /* Images.xcassets */; };
 		F89CC4DB17FC95340038DFBF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89CC4DA17FC95340038DFBF /* XCTest.framework */; };
 		F89CC4DC17FC95340038DFBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89CC4B317FC95340038DFBF /* Foundation.framework */; };
@@ -38,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F86F11D317FCD9CA0010FC4E /* HPSCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPSCollectionViewController.h; sourceTree = "<group>"; };
+		F86F11D417FCD9CA0010FC4E /* HPSCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPSCollectionViewController.m; sourceTree = "<group>"; };
+		F86F11D617FCED770010FC4E /* beer-flight@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "beer-flight@2x.jpg"; path = "../../../Downloads/beer-flight@2x.jpg"; sourceTree = "<group>"; };
+		F86F11D817FCEF0C0010FC4E /* HPSCViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPSCViewCell.h; sourceTree = "<group>"; };
+		F86F11D917FCEF0C0010FC4E /* HPSCViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPSCViewCell.m; sourceTree = "<group>"; };
 		F89CC4B017FC95340038DFBF /* collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89CC4B317FC95340038DFBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F89CC4B517FC95340038DFBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,10 +57,6 @@
 		F89CC4C517FC95340038DFBF /* HPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPSAppDelegate.m; sourceTree = "<group>"; };
 		F89CC4C817FC95340038DFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F89CC4CB17FC95340038DFBF /* collection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = collection.xcdatamodel; sourceTree = "<group>"; };
-		F89CC4CD17FC95340038DFBF /* HPSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPSMasterViewController.h; sourceTree = "<group>"; };
-		F89CC4CE17FC95340038DFBF /* HPSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPSMasterViewController.m; sourceTree = "<group>"; };
-		F89CC4D017FC95340038DFBF /* HPSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPSDetailViewController.h; sourceTree = "<group>"; };
-		F89CC4D117FC95340038DFBF /* HPSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPSDetailViewController.m; sourceTree = "<group>"; };
 		F89CC4D317FC95340038DFBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F89CC4D917FC95340038DFBF /* collectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89CC4DA17FC95340038DFBF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -125,14 +127,15 @@
 			children = (
 				F89CC4C417FC95340038DFBF /* HPSAppDelegate.h */,
 				F89CC4C517FC95340038DFBF /* HPSAppDelegate.m */,
+				F86F11D617FCED770010FC4E /* beer-flight@2x.jpg */,
 				F89CC4C717FC95340038DFBF /* Main.storyboard */,
-				F89CC4CD17FC95340038DFBF /* HPSMasterViewController.h */,
-				F89CC4CE17FC95340038DFBF /* HPSMasterViewController.m */,
-				F89CC4D017FC95340038DFBF /* HPSDetailViewController.h */,
-				F89CC4D117FC95340038DFBF /* HPSDetailViewController.m */,
 				F89CC4D317FC95340038DFBF /* Images.xcassets */,
 				F89CC4CA17FC95340038DFBF /* collection.xcdatamodeld */,
 				F89CC4BC17FC95340038DFBF /* Supporting Files */,
+				F86F11D317FCD9CA0010FC4E /* HPSCollectionViewController.h */,
+				F86F11D417FCD9CA0010FC4E /* HPSCollectionViewController.m */,
+				F86F11D817FCEF0C0010FC4E /* HPSCViewCell.h */,
+				F86F11D917FCEF0C0010FC4E /* HPSCViewCell.m */,
 			);
 			path = collection;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				F89CC4D417FC95340038DFBF /* Images.xcassets in Resources */,
 				F89CC4C017FC95340038DFBF /* InfoPlist.strings in Resources */,
 				F89CC4C917FC95340038DFBF /* Main.storyboard in Resources */,
+				F86F11D717FCED770010FC4E /* beer-flight@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F89CC4D217FC95340038DFBF /* HPSDetailViewController.m in Sources */,
 				F89CC4CC17FC95340038DFBF /* collection.xcdatamodeld in Sources */,
 				F89CC4C617FC95340038DFBF /* HPSAppDelegate.m in Sources */,
-				F89CC4CF17FC95340038DFBF /* HPSMasterViewController.m in Sources */,
+				F86F11D517FCD9CA0010FC4E /* HPSCollectionViewController.m in Sources */,
+				F86F11DA17FCEF0C0010FC4E /* HPSCViewCell.m in Sources */,
 				F89CC4C217FC95340038DFBF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +481,7 @@
 				F89CC4ED17FC95340038DFBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F89CC4EE17FC95340038DFBF /* Build configuration list for PBXNativeTarget "collectionTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +490,7 @@
 				F89CC4F017FC95340038DFBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

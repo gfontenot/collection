@@ -1,5 +1,5 @@
 //
-//  HPSAppDelegate.h
+//  HPSCViewCell.h
 //  collection
 //
 //  Created by Gordon Fontenot on 10/2/13.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HPSAppDelegate : UIResponder <UIApplicationDelegate>
+@interface HPSCViewCell : UICollectionViewCell
 
-@property (strong, nonatomic) UIWindow *window;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
